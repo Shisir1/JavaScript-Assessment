@@ -24,7 +24,10 @@ array.unshift(-1)
 array.unshift(-2)
 
 //Delete last element from array
+array.pop()
+
 //Delete first element
+array.shift()
 
 //reverse the array
 const fruits = ['Banana','Apple','Orange']
