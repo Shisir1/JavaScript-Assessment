@@ -15,6 +15,8 @@ const greet2 = greet.bind(person1);
 console.log(greet2())
 
 //Example 2 for call vs apply
+
+//difference between Call and Apply is Call takes arguments as objects and Apply takes arguments as Array
 var person2 = {
   name: "Marvin",
   age: 42,
